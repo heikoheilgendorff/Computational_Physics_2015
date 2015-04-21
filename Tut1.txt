@@ -1,0 +1,17 @@
+1. To get a list of files in a directory with the latest file printed last:
+
+ls -lrt
+
+2. To diplay first 25 lines of a file:
+
+head -n25 <filename>
+
+To display lines 16 to 35:
+
+sed -n '16,35p' <filename>
+
+3. To display multiple man pages:
+
+man -a <page name>
+
+
